@@ -1,0 +1,27 @@
+Package: Condition
+Type: Package
+Title: Methods to set the condition values
+Version: 0.1.1
+Author: David Salgado
+Maintainer: David Salgado <david.salgado.fernandez@ine.es>
+Description: Different functions and methods to set the values of the condition
+    of interval-distance edits.
+Depends: R (>= 3.2.0)
+Imports:
+    methods, 
+    data.table (>= 1.10.0), 
+    StQ (>= 0.3.15)
+Collate: 
+    'TSConditionParam-class.R'
+    'FixedConditionParam-class.R'
+    'GenConditionParam-class.R'
+    'ConditionParam-class.R'
+    'BuildConditionParam.R'
+    'Condition.R'
+    'FixedCondition.R'
+    'GenCondition.R'
+    'TSCondition.R'
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
